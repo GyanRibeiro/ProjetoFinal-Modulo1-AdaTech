@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp5121853.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i {
+    font-size: 20px;
+}
+
+.editar {
+    font-size: 11px;
+}
+
+@media (max-width: 600px) {
+    .emai {
+      display: none;
+    }
+  }
